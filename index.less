@@ -8,7 +8,7 @@
 @gray08: #f1f1f1;
 @white:  #FFFFFF;
 
-@pink:   #FB007A;
+@pink:   #DD116F;
 @red_dark: #C30071;
 @red_light: #E32791;
 @orange: #D75F5F;
@@ -76,7 +76,7 @@
   .line-number.cursor-line-no-selection {
     color: @blue;
   }
-  
+
   .wrap-guide {
     background-color: @gray07;
   }
@@ -90,17 +90,13 @@
   color: @gray05;
   font-style: italic;
 }
-
+/*
 .entity {
   color: @blue_dark;
-}
+}*/
 
-.keyword {
-  color: @green_dark;
-}
-
-.storage.type {
-  color: @purple_dark;
+.storage {
+  color: @blue_dark;
 }
 
 .constant {
@@ -113,14 +109,24 @@
 }
 
 .variable {
-  color: @red_dark;
+  color: @pink;
 }
 
+.keyword{
+  color: @blue_dark;
+}
+.operator{
+    color: black;
+}
+.constant.support{
+    color:black;
+}
+/*
 .delimiter, .brace,
 .delimiter.period,
 .punctuation.definition {
-  color: @pink;
-}
+  color: @black;
+}*/
 
 .invalid.deprecated {
   text-decoration: underline;
@@ -132,7 +138,7 @@
 }
 
 .string {
-  color: @cyan_dark;
+  color: @pink;
 
   .constant.character.escape {
   }
