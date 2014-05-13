@@ -1,10 +1,10 @@
 {
-  "name": "pencil-light",
+  "name": "geany-github-syntax",
   "theme": "syntax",
   "version": "0.1.4",
   "private": false,
-  "description": "a light theme with colors inspired by iA Writer",
-  "repository": "https://github.com/mattly/atom-colors-pencil-light",
+  "description": "a light theme with colors inspired by geany's github theme",
+  "repository": "https://github.com/VanCoding/atom-geany-github-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
