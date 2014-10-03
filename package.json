@@ -1,7 +1,7 @@
 {
   "name": "geany-github-syntax",
   "theme": "syntax",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "private": false,
   "description": "a light theme with colors inspired by geany's github theme",
   "repository": "https://github.com/VanCoding/atom-geany-github-syntax",
